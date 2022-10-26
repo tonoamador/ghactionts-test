@@ -42,3 +42,5 @@ jobs:
       run: docker push antonioamador/github-image-python:latest
     - name: Integration test
       run: docker run antonioamador/github-image-python:latest
+    - name: Debug Docker
+      run: docker images 
